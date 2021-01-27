@@ -1,0 +1,96 @@
+body {
+    background-color: beige;
+}
+p {
+    background: lightgrey;
+}
+a:link {
+    color: lightgreen;
+}
+a:visited {
+    color: navy;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px dotted blue;
+    position: relative;
+}
+.parent {
+    border: 5px ridge red;
+    overflow: auto;
+    position: relative;
+}
+.button {
+    width: 80px;
+    height: 70px;
+    padding: 10px;
+}
+.relative {
+    background: hotpink;
+    position: relative;
+}
+.two.relative {
+    background: hotpink;
+    position: relative;
+    left: 300px;
+    top: -70px;
+}
+.absolute {
+    background: peru;
+    position: absolute;
+    bottom: 0%;
+}
+.absolute.two {
+    background: peru;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.fixed {
+    background: white;
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+}
+.static {
+    background: darkgreen;
+    position: static;
+}
+.two {
+    font-size: 10px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+#imgfloat {
+    width: 700px;
+    margin: 5px auto;
+    border: 5px solid black;
+    padding: 0px;
+    overflow: auto;
+}
+#floatbox {
+    width: 70px;
+    height: 70px;
+    background: hotpink;
+    float: left;
+    padding: 10px;
+    margin: 5px; 
+}
+#clear {
+    clear: both;
+}
+#cloud {
+    text-align: center;
+}
+
